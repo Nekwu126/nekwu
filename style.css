@@ -1,0 +1,206 @@
+@font-face {
+    font-family: Comfortaa ;
+    src: url(Comfortaa-VariableFont_wght.ttf);
+}
+
+.container {
+    font-family: Comfortaa;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+header h1 {
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+header p {
+    position: relative;
+    bottom: 13px;
+    font-size: 0.7em;
+    color: #ADADAF;
+}
+
+header h2 {
+    font-weight: 900;
+    font-size: 1.4em;
+    position: relative;
+    bottom: 13px;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    right: 30px;
+    top: 30px;
+
+    
+}
+
+.teamb p{
+    font-size: 0.6em;    
+    color: #ADADAF;
+}
+
+
+.teamb img {
+    width: 30px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+.calc p, h3 {
+    position: relative;
+    left: 15px;
+}
+
+.super p, h3 {
+    position: relative;
+    left: 15px;
+}
+
+.teamb p, h3 {
+    position: relative;
+    left: 15px;
+}
+
+.karma p, h3 {
+    position: relative;
+    left: 15px;
+    
+}
+
+
+
+
+.calc p{
+    font-size: 0.6em;
+    color: #ADADAF;
+
+}
+
+.calc img {
+    width: 30px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+.karma p{
+    font-size: 0.6em;
+    color: #ADADAF;
+}
+
+.karma img {
+    width: 30px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+.super p {
+    font-size: 0.6em;
+    color: #ADADAF;
+}
+
+.super img {
+    width: 30px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+.calc {
+    position: relative;
+    left: 570px;
+    top: 80px;
+    border: 1px solid white;
+    width: 250px;
+    height: 160px;
+    border-top: 3px solid #5395E1;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px 3px #EFF3F6;
+}
+
+.karma {
+    position: relative;
+    top: 180px;
+    left: 50px;
+    border: 1px solid white;
+    width: 250px;
+    height: 160px;
+    border-top: 3px solid #FEAD47;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px 3px #EFF3F6;
+
+}
+
+.super {
+    position: relative;
+    right: 475px;
+    top: 80px;
+    border: 1px solid white;
+    width: 250px;
+    height: 160px;
+    border-top: 3px solid #4CC6C6;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px 3px #EFF3F6;
+
+}
+
+.teamb {
+    position: relative;
+    left: 550px;
+    border: 1px solid white;
+    width: 250px;
+    height: 160px;
+    border-top: 3px solid #DB5153;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px 3px #EFF3F6;
+    
+
+}
+
+@media (max-width: 768px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        position: relative;
+        left: 156px;
+        width: 300px;
+    }
+
+    .super {
+        position: relative;
+        left: 210px;
+        top: -490px;
+    }
+
+    .karma {
+        position: relative;
+        left: 210px;
+        top: 75px;
+    }
+    .teamb {
+        position: relative;
+        left: 210px;
+        top: 200px
+    }
+
+    .calc {
+        position: relative;
+        left: 210px;
+        top: 439px
+    }
+
+
+}
+
