@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "Young Serif" ;
+    src: url(YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: VariableFont;
+    src: url(Outfit-VariableFont_wght.ttf);
+}
+
+.container img {
+    margin: 20px;
+    border-radius: 10px;
+    width: 557px;
+    
+    
+}
+
+header p {
+    font-family: VariableFont;
+    font-size: 0.9em;
+    margin: 20px;
+
+}
+
+body {
+    padding: 20px;
+    background-color: blanchedalmond;
+
+}
+
+.container {
+    border: 1px solid white;
+    width: 600px;
+    margin-left: 300px;
+    border-radius: 10px;
+    background-color: white;
+    
+    
+}
+
+header h1 {
+    font-family: "Young Serif";
+    font-weight: 100;
+    font-size: larger;
+    margin: 20px;
+}
+
+.prep {
+    font-family: VariableFont;
+    font-size: 0.9em;
+    border: 1px solid #FFF7FC;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #FFF7FC;
+}
+
+
+
+.prep h4 {
+    font-family: VariableFont;
+    font-weight: 600;
+    margin: 20px;
+    color: #602A41;
+}
+
+.ingred h3 {
+    font-family: "Young Serif";
+    font-weight: 100;
+    font-size: 1em;
+    margin: 20px;
+    color: #804236;
+}
+
+.ingred ul {
+    font-family: VariableFont;
+    font-size: 0.9em;
+    
+}
+
+
+.inst h3 {
+    font-family: "Young Serif";
+    font-weight: 100;
+    font-size: 1em;
+    margin: 20px;
+    color: #804236;
+}
+
+.inst ol {
+    font-family: VariableFont;
+    font-size: 0.9em;
+    margin: 20px;
+
+}
+
+.table h3 {
+    font-family: "Young Serif";
+    font-weight: 100;
+    font-size: 1em;
+    margin: 20px;
+    color: #804236;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: VariableFont;
+    margin: 20px;
+}
+.table th, table td {
+    /* border: 1px solid #ddd; */
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 0.9em;
+}
+/* .table th {
+    background-color: #f2f2f2;
+} */
+
+.table p {
+    font-size: 0.9em;
+    margin: 20px; 
+}
+
+table th{
+    font-weight: 400;
+
+}
+
+table td {
+    color: #804236;
+    font-weight:600;
+}
+
+@media (max-width: 768px) {
+    .container img {
+        width: 300px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+    
+
+    .prep {
+        width: 200px;
+
+    }
+
+    header {
+        width: 300px;
+    }
+
+    .ingred {
+        width: 250px
+    }
+
+    .inst {
+        width: 250px;
+    }
+    
+    .table {
+        width: 250px;
+    }
+
+    hr {
+        width:250px;
+        position: relative;
+        left: 5px;
+    }
+
+    .container {
+        width: 300px;
+        position: relative;
+        right: 140px
+    }
+}

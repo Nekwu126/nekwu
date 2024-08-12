@@ -1,0 +1,323 @@
+header {
+   position: relative;
+   bottom: 250px;
+   left: 100px;
+   color:#511F50;
+}
+
+header h1 {
+    font-size: 40px;
+    
+}
+
+header p {
+    font-size: 13px;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    display: flex;  
+
+}
+
+.topbg {
+    position: relative;
+    right: 90px;
+    bottom: 20px;
+}
+
+.ratings {
+    position: relative;
+    left: 700px; 
+    bottom:450px;
+    color:#511F50;
+}
+
+.rating1 {
+    border: 1px solid #F8F2F5;
+    background-color: #F8F2F5;
+    height: 30px;
+    padding: 5px;
+    width: 400px;
+    border-radius: 10px;
+    position: relative;
+    right: 30px;
+    font-size: 13px;
+}
+
+.stars1 {
+    position: relative;
+    bottom: -5px;
+    left: 10px;
+}
+
+.ra1 {
+    position: relative;
+    left: 135px;
+    bottom: 10px;
+}
+
+.rating2 {
+    border: 1px solid #F8F2F5;
+    background-color: #F8F2F5;
+    height: 30px;
+    padding: 5px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    right: 30px;
+    font-size: 13px;
+    
+
+}
+
+.stars2 {
+    position: relative;
+    bottom: -5px;
+    left: 10px;
+}
+
+.ra2 {
+    position: relative;
+    left: 135px;
+    bottom: 10px;
+}
+
+
+
+.rating3 {
+    border: 1px solid #F8F2F5;
+    background-color: #F8F2F5;
+    height: 30px;
+    padding: 5px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 13px;
+
+}
+
+.stars3 {
+    position: relative;
+    bottom: -5px;
+    left: 10px;
+}
+
+.ra3 {
+    position: relative;
+    left: 135px;
+    bottom: 10px;
+}
+
+.reviews {
+    position: relative;
+    left: 100px;
+    bottom: 350px;
+
+}
+
+.review1 {
+    position: relative;
+    border: 1px solid #511F50 ;
+    width: 271px;
+    font-size: 13px;
+    padding: 20px;
+    background-color:#511F50;
+    color: white;
+    border-radius:10px;
+    
+
+}
+
+.review1 img {
+    
+    border-radius: 50px;
+    height: 60px;
+
+}
+
+.rev1head {
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+    
+
+}
+
+.review2 {
+    position: relative;
+    left: 340px;
+    bottom: 205px;
+    font-size: 13px;
+    border: 1px solid #511F50;
+    padding: 20px;
+    width: 271px;
+    background-color: #511F50;
+    color: white;
+    border-radius: 10px;
+}
+
+.review2 img {
+    border-radius: 50px;
+    height: 60px;
+    
+}
+
+.rev2head {
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+}
+
+.review3 {
+    position: relative;
+    left: 680px;
+    bottom: 420px;
+    font-size: 13px;
+    border: 1px solid #511F50;
+    padding: 20px;
+    width: 271px;
+    background-color: #511F50;
+    color: white;
+    border-radius: 10px;
+}
+.review3 img {
+    border-radius: 50px;
+    height: 60px;
+}
+
+.rev3head {
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+}
+
+.subclass1 {
+    color: #974A7C;
+}
+
+.sub2 {
+    color:#974A7C;
+}
+
+.subclass3 {
+    color:#974A7C;
+}
+
+.btmimg {
+    position: relative;
+    bottom: 1400px;
+    left: 165px;
+}
+
+@media (max-width: 768px) {
+    
+    header {
+        position: relative;
+        left: 170px;
+        bottom: 300px;
+    }
+
+    .ratings {
+        position: relative;
+        left: 150px;
+        bottom: 1px;
+    }
+
+    .ra2 {
+        position: relative;
+        left: 150px;
+        top
+    }
+
+    .rating1 {
+        position: relative;
+        bottom: 250px;
+        padding: 20px;
+    }
+
+    .stars1 {
+        position: relative;
+        left: 150px;
+        bottom: 10px;
+    }
+
+    .ra1 {
+        position: relative;
+        top: 0px;
+        
+    }
+
+    .rating2 {
+        position: relative;
+        bottom: 250px;
+        right: 50px;
+        padding: 20px;
+        
+    }
+
+    .ra2 {
+        position: relative;
+        bottom: 1px;
+        left: 110px;
+
+        
+    }
+
+    .stars2 {
+        position: relative;
+        left: 140px;
+        bottom: 10px;
+    }
+
+    .rating3 {
+        position: relative;
+        bottom: 250px;
+        right: 29.5px;
+        padding: 20px;
+    }
+
+    .ra3 {
+        position: relative;
+        left: 105px;
+
+    }
+
+    .stars3 {
+        position: relative;
+        left: 140px;
+        bottom: 10px;
+    }
+
+    .reviews {
+        position: relative;
+        top: -500px;
+    }
+
+
+    .review1 {
+        position: relative;
+        left: 50px;
+        top: 300px;
+    }
+
+    .review2 {
+        position: relative;
+        top: 350px;
+        left: 50px;
+        
+    }
+    .review3 {
+        position: relative;
+        top: 400px;
+        left: 50px;
+    }
+
+    .btmimg {
+        display: none;
+    }
+
+    
+}
+
+

@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Variable ;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    font-family: Variable;
+    border: 1px solid;
+    width: 400px;
+    position: relative;
+    left: 450px;
+    border-radius: 10px;
+    background-color: #1F1F1F;
+    
+}
+
+header img {
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    left: 150px;
+    top: 10px;
+}
+
+header h2 {
+    position: relative;
+    left: 100px;
+    color: white;
+
+
+}
+
+header h4 {
+    position: relative;
+    left: 100px;
+    color: #CEEC69;
+
+}
+
+.buttons {
+    position: relative;
+    left: 30px;
+}
+
+.buttons p{
+    position: relative;
+    left: 45px;
+    color: white;
+    font-size: 0.9em;
+}
+
+.gh {
+    position: relative;
+    left: 28px;
+    width: 300px;
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    font-family: Variable;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+.fm {
+    position: relative;
+    left: 28px;
+    width: 300px;
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    font-family: Variable;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+.li {
+    position: relative;
+    left: 28px;
+    width: 300px;
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    font-family: Variable;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+.tw {
+    position: relative;
+    left: 28px;
+    width: 300px;
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    font-family: Variable;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+.ig {
+    position: relative;
+    left: 28px;
+    width: 300px;
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    font-family: Variable;
+    border-radius: 5px;
+    border: 1px solid #333333;
+}
+
+button:hover {
+    background-color:#CEEC69;
+    color: black;
+}
+
+@media (max-width: 768px) {
+   .container {
+        position: relative;
+        left: 100px
+   }
+}

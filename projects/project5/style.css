@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    position: relative;
+    left: 450px;
+    top: 100px;
+    justify-content: center;
+    
+}
+
+header h2 {
+    font-size: 3em;
+}
+
+header p {
+    position: relative;
+    bottom: 60px;
+}
+
+header h2, header p {
+    width:100px;
+    border: 1px solid
+}
+
+.rest h4 {
+    position: relative;
+    bottom: 80px;
+
+}
+
+.rest p  {
+    position: relative;
+    bottom: 80px;
+}
+
+
+
+
+
+
+
+.result {
+    width: 250px;
+    height: 400px;    
+    text-align: center;
+    border-radius: 15px;
+    background-image: linear-gradient(blue, purple);
+    position: relative;
+    left: 20px;   
+    
+}
+
+.summary {
+    width: 250px;
+    height: 400px;
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+/* .container :nth-child(1){
+    transform: translate(20px);
+
+} */
