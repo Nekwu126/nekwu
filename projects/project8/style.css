@@ -1,0 +1,119 @@
+@font-face {
+    font-family: inter ;
+    src: url(Inter-VariableFont_opsz\,wght.ttf);
+}
+
+*{
+    font-family: inter;
+    
+}
+
+body {
+    position: relative;
+    left: 420px;
+    background-image: url(pattern-background-desktop.svg);
+    
+     
+}
+
+.image img {
+    height: 150px;
+    width: 302px;
+    position: relative;
+    left: 5px;
+}
+
+.order {
+    text-align: center;
+    position: relative;
+    bottom: 4px;
+    left: 5px;
+    border: 1px solid;
+    width: 300px;
+    height: 390px;
+    border-color: white;
+    background-color: white;
+}
+
+.cancel {
+    position: relative;
+    top: 40px;
+    height: 40px;
+    width: 250px;
+    border-style: none;
+    background-color: white;
+    color: #717390;
+    font-weight: 600;
+}
+
+.pay {
+    position: relative;
+    top: 30px;
+    height: 40px;
+    width: 250px;
+    background-color: #382AE1;
+    border-style: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0px 5px 6px #DEDBF8;
+}
+
+span img {
+    position: relative;
+    right: 100px;
+    width: 30px;
+    top: 60px;
+}
+.plan {
+    font-size: 0.8em;
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+    right: 30px;
+}
+
+.dollars {
+    font-size: 0.8em;
+    position: relative;
+    right: 30px;
+    color: #717390;
+}
+
+.order h2 {
+    font-size: 1.2em;
+    position: relative;
+    top: 30px; 
+}
+
+.order h5 {
+    font-weight: 400;
+    position: relative;
+    top: 30px;
+    font-size: 0.7em;
+    color: #717390;
+}
+
+a {
+    font-size: 0.8em;
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+
+}
+
+@media (max-width: 768px) {
+
+    body {
+        position: relative;
+        left: 150px;
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+   

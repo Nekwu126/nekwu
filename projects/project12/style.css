@@ -1,0 +1,98 @@
+@font-face {
+    font-family: roboto;
+    src: url(RobotoCondensed-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: roboto;
+    
+}
+
+body {
+    background-color: #E6EFF6;
+}
+
+.container {
+    position: relative;
+    top: 100px;
+   
+    
+}
+
+.first {
+    position: relative;
+    left: 500px;
+    border: 1px solid white;
+    width: 500px;
+    background-color: white;
+
+}
+
+.first h4 {
+    color: #4ABEBD;
+}
+
+.first h5 {
+    color: #BFDF32;
+}
+
+.first p {
+    color: #858691;
+}
+
+.first h4, .first h5, .first p {
+    position: relative;
+    left: 20px;
+}
+
+.second {
+    position: relative;
+    left: 500px;
+    border: 1px solid #2BB3B1 ;
+    width: 250px;
+    height: 220px;
+    background-color: #2BB3B1;
+}
+
+
+
+.second h4, .second h3, .second p, .second button {
+    position: relative;
+    left: 20px;
+}
+
+.second h4 {
+    color: white;
+
+}
+.second button {
+    position: relative;
+    left: 25px;
+    height: 40px;
+    width: 200px;
+    top: 15px;
+    background-color: #BFDF32;
+    border-style: none;
+    border-radius: 5px;
+}
+
+
+.third {
+   
+    position: relative;
+    left: 750px;
+    bottom: 222px;
+    border: 1px solid#4ABEBD;
+    width: 250px;
+    height: 220px;
+    background-color: #4ABEBD;
+
+
+}
+
+.third p, .third h3 {
+    position: relative;
+    left: 20px;
+}
+
+
