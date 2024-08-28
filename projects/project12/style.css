@@ -15,6 +15,7 @@ body {
 .container {
     position: relative;
     top: 100px;
+    right: 100px;
    
     
 }
@@ -25,6 +26,8 @@ body {
     border: 1px solid white;
     width: 500px;
     background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 3px 5px 10px 3px #b8bbbd ;
 
 }
 
@@ -38,6 +41,7 @@ body {
 
 .first p {
     color: #858691;
+    font-size: 0.8em;
 }
 
 .first h4, .first h5, .first p {
@@ -52,6 +56,8 @@ body {
     width: 250px;
     height: 220px;
     background-color: #2BB3B1;
+    border-radius: 0px 0px 0px 10px;
+    box-shadow: 3px 3px 10px 3px #b8bbbd;
 }
 
 
@@ -59,21 +65,45 @@ body {
 .second h4, .second h3, .second p, .second button {
     position: relative;
     left: 20px;
+    color: white;
+}
+
+.second h3 span {
+    font-size: 1.5em;
+    position: relative;
+    right: 10px;
+    font-weight: 600;
+    font-size: 1.9em;
+}
+
+.second h3 {
+    position:relative;
+    left: 30px;
+    font-weight: 400;
+    font-size: 0.9em;
 }
 
 .second h4 {
     color: white;
 
 }
+
+.second p {
+    font-size: 0.8em;
+}
+
 .second button {
     position: relative;
-    left: 25px;
+    left: 24px;
     height: 40px;
     width: 200px;
     top: 15px;
     background-color: #BFDF32;
     border-style: none;
     border-radius: 5px;
+
+
+
 }
 
 
@@ -86,13 +116,52 @@ body {
     width: 250px;
     height: 220px;
     background-color: #4ABEBD;
-
-
+    border-radius: 0px 0px 10px 0px;
+    box-shadow: 3px 3px  10px #b8bbbd;
 }
+
+
+
 
 .third p, .third h3 {
     position: relative;
     left: 20px;
+    color: white;
+    
+}
+
+.third p {
+    font-size: 0.8em;
+}
+
+.third h3 {
+    font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        position: relative;
+        right: 300px;
+        
+    }
+    .first {
+        width: 284px;
+        box-shadow: 0px 0px 0px 0px;
+    }
+
+    .second {
+        box-shadow: 0px 0px 0px 0px;
+        width: 284px;
+        border-radius: 0px;
+    }
+    .third {
+        position: relative;
+        bottom: 0.5px;
+        left: 500px;
+        width: 284px;
+
+    }
 }
 
 

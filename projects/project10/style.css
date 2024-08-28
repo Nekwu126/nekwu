@@ -1,0 +1,51 @@
+@font-face {
+    font-family: karla ;
+    src: url(Karla-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: karla;
+}
+
+
+body {
+    background-color: #19A1AD;
+    /* background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat; */
+}
+
+.container {
+    position: relative;
+    left: 500px;
+}
+
+.victor {
+    position: relative;
+    right: 230px;
+    top: 0px;
+    border-radius: 50px;
+    border: 5px solid white;
+}
+
+.card {
+    text-align: center;
+    position: relative;
+    right: 0px;
+    top: -23px;
+    border: 1px solid;
+    width: 350px;
+    background-color: white;    
+
+}
+
+hr {
+    position: relative;
+    top: 20px;
+}
+
+header {
+    position: relative;
+    top: 20px;
+}
+
